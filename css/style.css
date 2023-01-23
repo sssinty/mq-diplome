@@ -1,13 +1,13 @@
   @font-face {
     font-family: "OpenSans-Regular";
-    src: url("/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-style: inherit;
     font-weight: 400;
   }
   
   @font-face {
     font-family: "OpenSans-Bold";
-    src: url("/fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff");
     font-style: inherit;
     font-weight: 400;
   }
@@ -24,7 +24,7 @@
 
   span {
     font-family: "OpenSans-Regular";
-    src: url("/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-style: inherit;
   }
 
