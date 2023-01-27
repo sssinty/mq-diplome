@@ -44,6 +44,9 @@
     display: block;
   }
 
+  footer {
+    display: flex;
+  }
 
 /* Заглавная часть/шапкa  */
 
@@ -178,6 +181,7 @@
   .section__close {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 8px;
 
   }
 
@@ -406,7 +410,7 @@
   .article__news {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .garden {
@@ -433,7 +437,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width:25%;
+    width: 24.7%;
     height: 320px;
     text-align: start;
     line-height: 24px;
@@ -939,6 +943,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -1073,6 +1078,10 @@
 
 /* Подвал */
 
+.footer {
+  display: block;
+}
+
 .footer__container {
   display: flex;
   align-content: center;
@@ -1197,7 +1206,11 @@
 
     .burger__menu {
       display: flex;
-
+      position: absolute;
+      margin-right: 15px;
+      margin-top: 30px;
+      right: 0;
+      top: 0;
       flex-basis: 100%;
       order: 1;
     }
@@ -1564,6 +1577,7 @@
 
   /* Подвал тела */
 
+  
   .footer__main {
     width: 700px;
   }
@@ -1585,6 +1599,10 @@
 
   @media (min-width:1200px) {
 
+    .header {
+      min-width: 100%;
+    }
+
     .menu {
       margin-left: 500px;
     }
@@ -1601,7 +1619,16 @@
 
     .footer__main {
       width: 70%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
+    .product__card:nth-child(2) {
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+
     .footer__container {
       width: 100%;
     }
