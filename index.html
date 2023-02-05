@@ -12,7 +12,12 @@
 
       <header class="header">
           <!-- <div class="burger__menu"> -->
-        <div class="container__header">  
+        <div class="container__header">
+          <div class="burger__menu">
+            <button class="menu__button">
+              <span class="menu__button-label">открыть меню</span>
+            </button>
+          </div>
           <div class="box">
             <a href="#0">
               <img src="./svg/noemi-logo.svg" alt="" class="logo">
@@ -27,12 +32,7 @@
                 <li class="item__menu"><a href="#0">Контакты</a></li>
               </ul>
             </nav>
-            <div class="burger__menu">
-              <button class="menu__button">
-                <span class="menu__button-label">открыть меню</span>
-              </button>
-            </div>
-          </div>
+           </div>
           <h1 class="header__title">блог о творчестве, спорте, и образе жизни</h1>
         </div>
 
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <form>
-                <lable class="visually-hidden">Кнопка отправки формы</lable>
+                <span class="visually-hidden">Кнопка отправки формы</span>
                 <button class="button__featback" type="submit">Отправить</button>
               </form>
             </div>
@@ -144,7 +144,7 @@
                   <li class="tags__item"><a href="#0">Health</a></li>
                 </ul>
                 <h2 class="article__title"><a href="#0">10 мест, ради которых стоит проснуться на рассвете</a></h2>
-                <time class="article__datatime">10 июня 2019</time>
+                <span class="article__datatime">10 июня 2019</span>
                 <a href="" class="link-article__author">Неизвестный автор</a>
                 <p class="article__content">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущенный фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
               </div>
@@ -160,7 +160,7 @@
                   <li class="tags__item"><a href="#0">lifestyle</a></li>
                 </ul>
                 <h2 class="article__title"><a href="#0">Йога для начинающих в домашних условиях</a></h2>
-                <time class="article__datatime">10 июня 2019</time>
+                <span class="article__datatime">10 июня 2019</span>
                 <a href="" class="link-article__author">Неизвестный автор</a>
                 <p class="article__content">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу. </p>
               </div>
@@ -175,7 +175,7 @@
                   <li class="tags__item"><a href="#0">music</a></li>
                 </ul>
                 <h2 class="article__title"><a href="#0">Лучшие музыкальные фестивали этого лета</a></h2>
-                <time class="article__datatime">10 июня 2019</time>
+                <span class="article__datatime">10 июня 2019</span>
                 <a href="" class="link-article__author">Неизвестный автор</a>
                 <p class="article__content">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?<br>
                   <br>Мы составили список лучших летних фестивалей по всему миру.
@@ -193,7 +193,7 @@
                   <li class="tags__item"><a href="#0">food</a></li>
                 </ul>
                 <h2 class="article__title"><a href="#0">Наукоёмкий подход к кулинарии</a></h2>
-                <time class="article__datatime">10 июня 2019</time>
+                <span class="article__datatime">10 июня 2019</span>
                 <a href="" class="link-article__author">Неизвестный автор</a>
                 <p class="article__content">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
               </div>
@@ -210,7 +210,7 @@
                   <li class="tags__item"><a href="#0">art</a></li>
                 </ul>
                 <h2 class="article__title"><a href="#0">Делаем модные принты на подушках для интерьера</a></h2>
-                <time class="article__datatime">10 июня 2019</time>
+                <span class="article__datatime">10 июня 2019</span>
                 <a href="" class="link-article__author">Неизвестный автор</a>
                 <p class="article__content">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
               </div>
@@ -225,7 +225,7 @@
               </div>
               <div class="news_content">
                 <div class="news subject_datatime">
-                  <time class="news_datatime">14 июня 2019</time>
+                  <span class="news_datatime">14 июня 2019</span>
                   <h4 class="news_subject"><a href="#0">10 мест, ради которых стоит проснуться</a></h4>
                 </div>
               </div>
@@ -237,7 +237,7 @@
               </div>
               <div class="news_content">
                 <div class="news subject_datatime">
-                  <time class="news_datatime">14 июня 2019</time>
+                  <span class="news_datatime">14 июня 2019</span>
                   <h4 class="news_subject"><a href="#0">Йога для домашних</a></h4>
                 </div>
               </div>
@@ -249,7 +249,7 @@
               </div>
               <div class="news_content">
                 <div class="news subject_datatime">
-                  <time class="news_datatime">14 июня 2019</time>
+                  <span class="news_datatime">14 июня 2019</span>
                   <h4 class="news_subject"><a href="#0">как мы превратили классное место в балкон</a></h4>
                 </div>
               </div>
@@ -279,7 +279,7 @@
               </div>
             </section>
       
-            <section class="search">
+            <div class="search">
               <div class="search_row">
                 <form>
                   <label class="visually-hidden">Поиск по сайту</label>
@@ -287,9 +287,9 @@
                   <button type="submit" class="button"></button>
                 </form>
               </div>
-            </section>
+            </div>
       
-            <section class="mailing">
+            <div class="mailing">
               <h4 class="mailing_title"><a href="#0">Рассылка</a></h4>
               <div class="mailing_row">
                 <form>
@@ -299,9 +299,9 @@
                   <button class="mailing_button" type="submit">Подписаться</button>
                 </form>
               </div>
-            </section>
+            </div>
       
-            <section class="tag">
+            <article class="tag">
               <h4 class="tag__title"><a href="">теги</a></h4>
       
               <ul class="list__tag">
@@ -314,24 +314,24 @@
                 <li class="item__tag"><a href="">food</a></li>
                 <li class="item__tag"><a href="">health</a></li>
               </ul>
-            </section>
+            </article>
       
-            <section class="topics">
-              <h4 class="title_topics"><a href="">темы</a></h4>
-              <ul class="list_topics">
-                <li class="item_topics"><a href="">Красота<span class="index_top"><sup>12</sup></span></a></li>
-                <li class="item_topics"><a href="">Здоровье<span class="index_top"><sup>4</sup></span></a></li>
-                <li class="item_topics"><a href="">Образ жизни<span class="index_top"><sup>145</sup></span></a></li>
-                <li class="item_topics"><a href="">Музыка<span class="index_top"><sup>28</sup></span></a></li>
-                <li class="item_topics"><a href="">Спорт<span class="index_top"><sup>62</sup></span></a></li>
-                <li class="item__topics"><a href="">Йога<span class="index_top"><sup>8</sup></span></a></li>
+            <article class="topics">
+              <h4 class="title__topics"><a href="">темы</a></h4>
+              <ul class="list__topics">
+                <li class="item__topics"><a href="">Красота<span class="index__top">12</span></a></li>
+                <li class="item__topics"><a href="">Здоровье<span class="index__top">4</span></a></li>
+                <li class="item__topics"><a href="">Образ жизни<span class="index__top">145</span></a></li>
+                <li class="item__topics"><a href="">Музыка<span class="index__top">28</span></a></li>
+                <li class="item__topics"><a href="">Спорт<span class="index__top">62</span></a></li>
+                <li class="item__topics"><a href="">Йога<span class="index__top">8</span></a></li>
               </ul>
-            </section>
+            </article>
           </aside>
         </div>
   <!-- Подвал основной страницы -->
         <div class="footer__main">
-            <div class="footer__bar"><h3 class="title__product"><a href="#0">наши изделия</a></h3></div>
+            <div class="footer__bar"><h2 class="title__product"><a href="#0">наши изделия</a></h2></div>
 
           <div class="footer__contant">
               <div class="product__card">
@@ -343,7 +343,7 @@
                 </picture>
                   <div class="product__container">
                     <h3 class="product__title"><a href="#0">подушки на диван</a></h3>
-                    <p class="product__desc">Набор из двух подушек с модными принтами. Видео о создании <a href="#0">здесь</a>.</p>
+                    <p class="pillow product__desc">Набор из двух подушек с модными принтами. Видео о создании <a href="#0">здесь</a>.</p>
                     <div class="container__price">
                       <div class="wrapper__price">
                         <span class="old__price">1000 ₽</span>
@@ -364,7 +364,7 @@
               </picture>
               <div class="product__container">
                 <h3 class="product__title"><a href="#0">кукла «зайчик»</a></h3>
-                <p class="product__desc">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена  <a href="#0">весенная серия постов</a> в блоге и несколько подкастов.</p>
+                <p class="doll product__desc">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена  <a href="#0">весенная серия постов</a> в блоге и несколько подкастов.</p>
                 <div class="container__price">
                   <div class="wrapper__price">
                     <span class="new__price">3500 ₽</span>
@@ -384,7 +384,7 @@
               </picture>
               <div class="product__container">
                 <h3 class="product__title"><a href="#0">шестиугольная рамка</a></h3>
-                <p class="product__desc">Необычная рамка для украшения дома из видео <a href="#0">«Как сделать рамку из подручных средств за 30 минут»</a>.</p>
+                <p class="frame product__desc">Необычная рамка для украшения дома из видео <a href="#0">«Как сделать рамку из подручных средств за 30 минут»</a>.</p>
                 <div class="container__price">
                   <div class="wrapper__price">
                     <span class="old__price">500 ₽</span>
