@@ -386,7 +386,7 @@
 
   .trand__bar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     height: 123px;
@@ -397,7 +397,7 @@
 
   .trand__bar::after {
     content: " ";
-    margin: 15px 0 15px 0;
+    margin: 15px 0 30px 0;
     right: 0;
     left: 0;
     width: 66px;
