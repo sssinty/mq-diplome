@@ -941,17 +941,22 @@
     padding-right: 25px;
     margin-bottom: 36px;
   }
+/* 
+  .item__topics a{
+
+  } */
 
   .item__topics a::after {
     display: block;
     content: "";
     position: absolute;
 
-    width: 270px;
+    left: 0;
+    min-width: 270px;
     margin-top: 20px;
     height: 2px;
     background-color: #eeeeee;
-    ;
+    
   }
 
   .item__topics a:hover::after, a:focus::after{
@@ -1055,14 +1060,17 @@
 
   .pillow {
     max-height: 40px;
+    -webkit-line-clamp: 2;
   }
 
   .doll {
     max-height: 80px;
+    -webkit-line-clamp: 4;
   }
 
   .frame {
     max-height: 60px;
+    -webkit-line-clamp: 3;
   }
 
   .product__desc {
@@ -1074,6 +1082,8 @@
     font-style: inherit;
 
     /* word-break: break-all; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     overflow: hidden;
    
   }
@@ -1830,6 +1840,8 @@
     }
 
     .footer__container {
-      min-width: 1200px;
+      max-width: 1200px;
+      margin: 65px auto;
+      margin-bottom: 0;
     }
   }
