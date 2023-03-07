@@ -1844,4 +1844,9 @@
       margin: 65px auto;
       margin-bottom: 0;
     }
+
+    .footer__icon {
+      width: 1200px;
+      margin: 0 0 28px 0;
+    }
   }
